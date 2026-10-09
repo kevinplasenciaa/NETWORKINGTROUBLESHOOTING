@@ -1,0 +1,12 @@
+export const resources=[
+ {title:'IOS XE LAN switching configuration guide',url:'https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/lanswitch/configuration/xe-17/lanswitch-xe-17-book.html',topics:['Switching'],applicability:'IOS XE 17.x',kind:'Official documentation'},
+ {title:'FortiOS administration guide',url:'https://docs.fortinet.com/document/fortigate/7.4.0/administration-guide',topics:['Security','WAN & HA'],applicability:'FortiOS 7.4',kind:'Official documentation'},
+ {title:'Junos configuration mode',url:'https://www.juniper.net/documentation/us/en/software/junos/cli/topics/topic-map/cli-configuration.html',topics:['Security','Routing'],applicability:'Junos; release-specific syntax requires confirmation',kind:'Official documentation'},
+ {title:'PAN-OS administrator’s guide',url:'https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-admin',topics:['Security'],applicability:'PAN-OS 11.1',kind:'Official documentation'},
+ {title:'Azure network security groups overview',url:'https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview',topics:['Azure'],applicability:'Azure virtual networking',kind:'Official documentation'},
+ {title:'Amazon VPC security groups',url:'https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html',topics:['AWS'],applicability:'Current VPC documentation',kind:'Official documentation'},
+ {title:'Amazon VPC network ACLs',url:'https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html',topics:['AWS'],applicability:'Current VPC documentation',kind:'Official documentation'},
+ {title:'Jeremy’s IT Lab — course provider',url:'https://www.jeremysitlab.com/',topics:['Switching','Routing'],applicability:'CCNA study; specific lessons not verified',kind:'Supplementary provider, not a verified lesson'},
+ {title:'David Bombal — training provider',url:'https://davidbombal.com/',topics:['Security','Routing'],applicability:'Networking study; specific lessons not verified',kind:'Supplementary provider, not a verified lesson'},
+ {title:'NetworkChuck — training provider',url:'https://networkchuck.com/',topics:['AWS','Azure'],applicability:'Networking study; specific lessons not verified',kind:'Supplementary provider, not a verified lesson'},
+].map(r=>({...r,verificationDate:null as string|null,checkedAt:'2026-10-09',verificationStatus:'Unverified: environment egress policy returned 403 during retrieval. No quotations or lesson details asserted.'}));
